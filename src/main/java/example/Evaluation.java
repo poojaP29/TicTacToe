@@ -5,7 +5,7 @@ package example;
  *
  * This enumeration specifies the possible results of the evaluation of a Tic-Tac-Toe board.
  */
-public enum Evaluation {
+public enum Evaluation{
   InvalidInput,
   NoWinner, /* valid board, but the game hasn't been won by either player yet */
   Xwins, /* valid board, and the game was won by player X */
