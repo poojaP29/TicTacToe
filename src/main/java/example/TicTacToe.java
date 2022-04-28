@@ -68,9 +68,7 @@ public class TicTacToe{
     if((boardState.charAt(0)==checker) && (boardState.charAt(4)==checker) && (boardState.charAt(8)==checker)) {
       return (true);
     }
-    if((boardState.charAt(2)==checker) && (boardState.charAt(4)==checker) && (boardState.charAt(5)==checker)) {
-      return (true);
-    }
+   
     return(boardState.charAt(2)== checker) && (boardState.charAt(4)== checker) && (boardState.charAt(6)== checker);
 
   }
